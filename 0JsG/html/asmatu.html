@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<title>
+    Guess
+</title>
+<head>
+    <link rel="shortcut icon" href="swordico.png">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="../js/asmatu.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/asmatu.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <a href="../html/index.html" class="itzuli">
+        <button class="itzuli">Back</button>
+    </a>
+    <h1>Guess the number</h1>
+</head>
+  <body>
+    <div class="wrapper">
+      <header>Enter a number between 1 and 100</header>
+      <p class="guess"></p>
+      <div class="input-field">
+        <input type="number" id="guessInput">
+        <button onclick="checkGuess()">Check</button>
+      </div>
+      <p id="message"></p>
+    </div>
+
+  </body>
+</html>

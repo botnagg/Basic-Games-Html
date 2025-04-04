@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.itzuli {
+    font-size: 11px;
+    font-weight: 400;
+    color: #333;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: none;
+    background: #3CD891;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+    padding: 12px 17px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(110, 110, 110, 0.51);
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    color:bla;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+  
+.box {
+    margin: 10px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    background-color: #f0fdffb5;
+}
+
+.botoia {
+    border: none;
+    background: #5D84F6;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(110, 110, 110, 0.51);
+    font-family: "Poppins", sans-serif;
+    
+}

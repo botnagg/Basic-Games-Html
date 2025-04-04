@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guess the word!</title>
+    <link rel="stylesheet" href="../css/scramble.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/words.js" defer></script>
+    <script src="../js/scramble.js" defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="shortcut icon" href="swordico.png">
+
+    <a href="../html/menua.html" class="itzuli">
+        <button class="itzuli">Itzuli</button>
+    </a>
+  </head>
+  <body>
+    <div class="container">
+        <h2>Guess the word!</h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="time">Time: <span><b>40</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Idatzi hemen :)">
+            <div class="buttons">
+                <button class="refresh-word">New word</button>
+                <button class="check-word">Check</button>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

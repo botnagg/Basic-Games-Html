@@ -1,0 +1,3 @@
+const paragraphs = [
+    "Auth."
+];

@@ -1,0 +1,1 @@
+alert("You will need internet conexion to play!");
